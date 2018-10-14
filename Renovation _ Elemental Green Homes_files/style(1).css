@@ -1,0 +1,33 @@
+/*
+ Theme Name:   Adapt Child
+ Theme URI:    https://creativemarket.com/wpexplorer/9044-Adapt-Responsive-WordPress-Theme
+ Description:  Twenty Fourteen Child Theme
+ Author:       Andrew Zucker
+ Author URI:   http://wisemantis.com
+ Template:     wpex-adapt
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  wpex-adapt-child
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+#single-nav{
+display:none
+}
+
+#single-portfolio-left pre{
+margin-top:0
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#logo a     {width:100%}
+#logo a img {width:25%}
+}
+
+@media only screen and (max-width: 480px) {
+#logo a	    {width:100%}
+#logo a img {width:100%}
+}
